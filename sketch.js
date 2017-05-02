@@ -17,8 +17,7 @@ function draw() {
     
     translate(0, -70);
     
-// TEXT    
-    
+// TEXT        
     fill(255);
     textSize(80);
     textFont("BW Slab");
@@ -42,7 +41,7 @@ function draw() {
     
     if (mouseX<170 && mouseX>50 && mouseY<380 && mouseY>280) {
         fill(255);
-        textSize(15);
+        textSize(18);
         textFont("BW Sans Regular");
         text("Ughhh, don’t you just love dirt?? Like the way it smells", 50, 500);
       text("(especially after it rains), and how digging in it just", 50, 530);
@@ -61,7 +60,7 @@ function draw() {
     
     if (mouseX<340 && mouseX>220 && mouseY<380 && mouseY>280) {
         fill(255);
-        textSize(20);
+        textSize(18);
         textFont("BW Sans Regular");
         text("My name is Medora Kea. I go to Lake Forest College, and", 50, 500);
       text("I am majoring in Studio Art and minoring in Digital", 50, 530);
