@@ -42,10 +42,17 @@ function draw() {
     
     if (mouseX<170 && mouseX>50 && mouseY<380 && mouseY>280) {
         fill(255);
-        textSize(20);
+        textSize(15);
         textFont("BW Sans Regular");
-        text("this is paragraph text", 50, 500);
-        text("blah blah blah blah blah", 50, 550);
+        text("Ughhh, don’t you just love dirt?? Like the way it smells", 50, 500);
+      text("(especially after it rains), and how digging in it just", 50, 530);
+      text("makes you feel so much more connected to the earth,", 50, 560);
+      text("and the different colors it can be…. Dirt is just so great.", 50, 590);
+      text("Trees can grow in it, and birds can live in those trees,", 50, 620);
+      text("and humans can see the birds out their windows in the", 50, 650);
+      text("morning and just be elated that they exist. Life is just so", 50, 680);
+      text("great. Except when it isn’t. But a lot of it is pretty okay.", 50, 710);
+        
     } else {
         
     }
@@ -56,8 +63,15 @@ function draw() {
         fill(255);
         textSize(20);
         textFont("BW Sans Regular");
-        text("this is paragraph text", 50, 500);
-        text("blah blah blah blah blah", 50, 550);
+        text("My name is Medora Kea. I go to Lake Forest College, and", 50, 500);
+      text("I am majoring in Studio Art and minoring in Digital", 50, 530);
+      text("Media Design. I am from St. Paul, Minnesota. I have", 50, 560);
+      text("participated in many extracurricular activities at Lake", 50, 590);
+      text("Forest College, such as the choir program, the LGBTQ", 50, 620);
+      text("organization, the mental health advocacy organization,", 50, 650);
+      text("and the photography club. I have also held on-campus", 50, 680);
+      text("jobs with the Office of Communications and Marketing,", 50, 710);
+      text("as well as the Office of Intercultural Relations.", 50, 740);
     } else {
         
     }
