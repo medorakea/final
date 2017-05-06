@@ -7,7 +7,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas((windowWidth-50),(windowHeight-200));
+    createCanvas((windowWidth-50),(windowHeight-150));
 }
 
 function draw() {
@@ -83,7 +83,7 @@ function draw() {
     var diffY = mouseY - y;
     y += diffY * easing;*/
     
-    image(img, (700 - (mouseX/20)), (100 - (mouseY/20)), 510, 600);
+    image(img, (800 - (mouseX/20)), (150 - (mouseY/20)), 510, 600);
 
 
 
